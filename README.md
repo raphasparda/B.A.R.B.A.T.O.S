@@ -8,7 +8,7 @@ Sistema inteligente de análise de telemetria e logs utilizando IA generativa (G
 
 ## Descrição
 
-B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs e telemetria de sistemas complexos, reduzindo custos operacionais em até 40% através de compressão inteligente de tokens (TOON Engine) e cache distribuído. O sistema utiliza Google Gemini para análise contextual, implementa padrões de resiliência (Circuit Breaker, Retry, Timeout) e oferece observabilidade completa via Grafana e Prometheus.
+B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs e telemetria de sistemas complexos, reduzindo custos operacionais em 40% á 92% através de compressão inteligente de tokens (TOON Engine) e cache distribuído. O sistema utiliza Google Gemini para análise contextual, implementa padrões de resiliência (Circuit Breaker, Retry, Timeout) e oferece observabilidade completa via Grafana e Prometheus.
 
 **Problema Resolvido:** Análise manual de logs consome tempo e recursos. B.A.R.B.A.T.O.S. automatiza este processo, fornecendo insights em tempo real com redução significativa de custos de API através de compressão e caching.
 
@@ -175,7 +175,7 @@ Este projeto está licenciado sob a **MIT License**.
 ```
 MIT License
 
-Copyright (c) 2025 www.SPARDA.dev Tekkadan B.A.R.B.A.T.O.S. Hub
+Copyright (c)2025 www.SPARDA.dev Tekkadan B.A.R.B.A.T.O.S. Hub.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -204,4 +204,4 @@ Só rezando e não me chama.
 
 ---
 
-**Desenvolvido por 2025 www.SPARDA.dev Tekkadan B.A.R.B.A.T.O.S. Hub "Raise your flag!"
+**Desenvolvido por www.SPARDA.dev Tekkadan B.A.R.B.A.T.O.S. Hub.
