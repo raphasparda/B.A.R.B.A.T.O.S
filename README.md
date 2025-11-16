@@ -6,7 +6,7 @@ Sistema inteligente de análise de telemetria e logs utilizando IA generativa (G
 
 ---
 
-## Descrição
+> Descrição
 
 B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs e telemetria de sistemas complexos, reduzindo custos operacionais em 40% á 92% através de compressão inteligente de tokens (TOON Engine) e cache distribuído. O sistema utiliza Google Gemini para análise contextual, implementa padrões de resiliência (Circuit Breaker, Retry, Timeout) e oferece observabilidade completa via Grafana e Prometheus.
 
@@ -14,59 +14,62 @@ B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs 
 
 ---
 
-## Tecnologias Utilizadas
+>Tecnologias Utilizadas
 
-### Backend
-- **Java 21** (Eclipse Adoptium JDK)
-- **Spring Boot 3.5.7** (Web, Security, Data JPA, WebFlux)
-- **LangChain4j 0.36.2** (Integração Google Gemini)
-- **Resilience4j** (Circuit Breaker, Retry, Time Limiter)
-- **Redis** (Cache distribuído)
-- **MongoDB Atlas** (Persistência de telemetria)
-- **H2 Database** (Autenticação e sessões)
-- **JWT** (Autenticação stateless)
-- **Micrometer + Prometheus** (Métricas)
-- **Maven 3.x** (Build tool)
+- Backend
+- **[Java 21](https://adoptium.net/temurin/releases/)** (Eclipse Adoptium JDK)
+- **[Spring Boot 3.5.7](https://spring.io/projects/spring-boot)** (Web, Security, Data JPA, WebFlux)
+- **[LangChain4j 0.36.2](https://docs.langchain4j.dev/)** (Integração Google Gemini)
+- **[Resilience4j](https://resilience4j.readme.io/)** (Circuit Breaker, Retry, Time Limiter)
+- **[Redis](https://redis.io/docs/)** (Cache distribuído)
+- **[MongoDB Atlas](https://www.mongodb.com/docs/atlas/)** (Persistência de telemetria)
+- **[H2 Database](https://www.h2database.com/html/main.html)** (Autenticação e sessões)
+- **[JWT](https://jwt.io/introduction)** (Autenticação stateless)
+- **[Micrometer](https://micrometer.io/docs)** + **[Prometheus](https://prometheus.io/docs/introduction/overview/)** (Métricas)
+- **[Maven 3.x](https://maven.apache.org/guides/)** (Build tool)
 
-### Frontend
-- **React 19.2.0** (UI framework)
-- **Vite 7.2.2** (Build tool e dev server)
-- **React Router 7.9.6** (Roteamento SPA)
-- **Tailwind CSS 3.4.17** (Estilização)
-- **Axios** (Cliente HTTP)
+- Frontend
+- >[React 19.2.0](https://react.dev/)** (UI framework)
+- >[Vite 7.2.2](https://vite.dev/guide/)** (Build tool e dev server)
+- >[React Router 7.9.6](https://reactrouter.com/en/main)** (Roteamento SPA)
+- >[Tailwind CSS 3.4.17](https://tailwindcss.com/docs)** (Estilização)
+- >[Axios](https://axios-http.com/docs/intro)** (Cliente HTTP)
 
-### DevOps
-- **Docker + Docker Compose** (Containerização)
-- **GitHub Actions** (CI/CD)
-- **Grafana** (Dashboards e visualização)
-- **Prometheus** (Coleta de métricas)
-- **Nginx** (Servidor web para frontend)
+- DevOps
+- >[Docker](https://docs.docker.com/)** + **[Docker Compose](https://docs.docker.com/compose/)** (Containerização)
+- >[GitHub Actions](https://docs.github.com/en/actions)** (CI/CD)
+- >[Grafana](https://grafana.com/docs/grafana/latest/)** (Dashboards e visualização)
+- >[Prometheus](https://prometheus.io/docs/introduction/overview/)** (Coleta de métricas)
+- >[Nginx](https://nginx.org/en/docs/)** (Servidor web para frontend)
 
+- Inteligência Artificial & Dados
+- >[LangChain4j 0.36.2](https://docs.langchain4j.dev/)**(Integração Google Gemini)
+- >[TOON](https://github.com/toon-format/toon)** (Token-Oriented Optimization Network/Notation)
 ---
 
-## Funcionalidades
+> Funcionalidades
 
-### Core
+>> Core
 - Análise inteligente de telemetria via Google Gemini (gemini-2.5-flash e gemini-2.5-PRO)
 - Compressão TOON (Token-Oriented Optimization Network) com redução de até 70% no tamanho dos logs
 - Cache Redis com TTL configurável (30 min padrão, redução de 40% em custos de API)
 - Autenticação JWT com refresh tokens
 - Rate limiting (10 requisições/minuto por cliente)
 
-### Resiliência
+>> Resiliência
 - Circuit Breaker (Resilience4j) com 50% de threshold de falha
 - Retry automático (3 tentativas com backoff exponencial)
 - Timeout de 45 segundos por requisição
 - Fallback para mensagens de erro padronizadas
 
-### Observabilidade
+>> Observabilidade
 - Métricas Prometheus (`/actuator/prometheus`)
 - Dashboards Grafana pré-configurados (5 dashboards, 41 painéis)
 - Alertas automatizados (10 regras de alerta)
 - Tracing distribuído
 - Health checks (`/actuator/health`)
 
-### Segurança
+>> Segurança
 - CORS configurável via variáveis de ambiente
 - Sanitização de logs (remoção de informações sensíveis)
 - Autenticação baseada em JWT
@@ -74,7 +77,7 @@ B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs 
 
 ---
 
-### Pré-requisitos para rodar localmente
+>> Pré-requisitos para rodar localmente
 
 - **Java 21** (Eclipse Adoptium ou Oracle JDK)
 - **Maven 3.9+**
@@ -84,21 +87,21 @@ B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs 
 - **MongoDB Atlas**
 - **chave do Gemini:** https://aistudio.google.com/app/apikey
 
-### Instalar Dependências
+>> Instalar Dependências
 
-#### Backend
+>>> Backend
 ```bash
 cd backend
 mvn clean install -DskipTests
 ```
 
-#### Frontend
+>>> Frontend
 ```bash
 cd frontend
 npm install
 ```
 
-### Executar com Docker Compose (Recomendado mais eu não recomendo)
+>>> Executar com Docker Compose (Recomendado mais eu não recomendo)
 
 ```bash
 # Na raiz do projeto
@@ -109,9 +112,9 @@ docker-compose up --build
 Eu gosto de rodar a versão localnetwork por conta dos elementos do frontend.
 ---
 
-## Roadmap 
+>> Roadmap 
 
-### Fase 1: Estabilização e Otimização (Q1 2025 ou 2026 kkkkkk)
+>>> Fase 1: Estabilização e Otimização (Q1 2025 ou 2026 kkkkkk)
 - [x] Implementar arquitetura de resiliência (Circuit Breaker, Retry, Timeout)
 - [x] Adicionar cache Redis com estratégia de invalidação
 - [x] Refatorar LogController aplicando SOLID (InputValidator, ResponseBuilder)
@@ -122,7 +125,7 @@ Eu gosto de rodar a versão localnetwork por conta dos elementos do frontend.
 - [ ] Adicionar testes end-to-end (Playwright/Cypress)
 - [ ] Otimizar algoritmo TOON para 80% de compressão
 
-### Fase 2: Escalabilidade e IA Avançada (Q2 2025 ou 2026 kkkkkk)
+>>> Fase 2: Escalabilidade e IA Avançada (Q2 2025 ou 2026 kkkkkk)
 - [ ] Migrar para arquitetura de microserviços
 - [ ] Implementar API Gateway (Spring Cloud Gateway)
 - [ ] Adicionar suporte a múltiplos modelos de IA (ou pelo menos tentar)
@@ -132,7 +135,7 @@ Eu gosto de rodar a versão localnetwork por conta dos elementos do frontend.
 - [ ] Implementar CQRS e Event Sourcing
 - [ ] Implementar nova função de automação de pipelines
 
-### Fase 3: Features Enterprise (Q3 2025 ou 2026 kkkkkk)
+>>> Fase 3: Features Enterprise (Q3 2025 ou 2026 kkkkkk)
 - [ ] Multi-tenancy com isolamento de dados
 - [ ] SSO via OAuth2 (Google, Microsoft, GitHub)
 - [ ] Auditoria completa (logs de ações de usuários)
@@ -141,7 +144,7 @@ Eu gosto de rodar a versão localnetwork por conta dos elementos do frontend.
 - [ ] Exportação de relatórios (PDF, Excel)
 - [ ] API GraphQL complementar à REST
 
-### Fase 4: Inteligência de Negócio (Q4 2025 ou 2026 kkkkkk)
+>>> Fase 4: Inteligência de Negócio (Q4 2025 ou 2026 kkkkkk)
 - [ ] Dashboard executivo com KPIs estratégicos
 - [ ] Machine Learning para classificação automática de logs
 - [ ] Detecção de anomalias com algoritmos não supervisionados
@@ -149,7 +152,7 @@ Eu gosto de rodar a versão localnetwork por conta dos elementos do frontend.
 - [ ] Recomendações automáticas de otimização
 - [ ] Integração com plataformas de APM (New Relic, Datadog)
 
-### Backlog Técnico
+>>> Backlog Técnico
 - [ ] Migrar de H2 para PostgreSQL em produção
 - [ ] Implementar gRPC para comunicação interna
 - [ ] Adicionar suporte a Kafka para streaming de eventos
@@ -158,7 +161,7 @@ Eu gosto de rodar a versão localnetwork por conta dos elementos do frontend.
 - [ ] Adicionar suporte a deployment Blue-Green
 - [ ] Criar Helm Charts para Kubernetes
 
-### Melhorias Contínuas
+>>> Melhorias Contínuas
 - [ ] Aumentar cobertura de testes para 90%
 - [ ] Reduzir tempo de build de CI/CD para < 5 minutos
 - [ ] Documentar todas as APIs com OpenAPI 3.0
@@ -168,7 +171,7 @@ Eu gosto de rodar a versão localnetwork por conta dos elementos do frontend.
 
 ---
 
-## Licença
+>> Licença
 
 Este projeto está licenciado sob a **MIT License**.
 
@@ -198,10 +201,10 @@ SOFTWARE.
 
 ---
 
-## Contato e Suporte
+>>> Contato e Suporte
 
-Só rezando e não me chama.
+>>>Só rezando e não me chama.<<<
 
 ---
 
-**Desenvolvido por www.SPARDA.dev Tekkadan B.A.R.B.A.T.O.S. Hub.
+>>>Desenvolvido por www.SPARDA.dev Tekkadan B.A.R.B.A.T.O.S. Hub.
