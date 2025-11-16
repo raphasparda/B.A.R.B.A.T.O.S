@@ -26,7 +26,7 @@ Sistema inteligente de análise de telemetria e logs utilizando IA generativa (G
 
 ⊳⊳⊳ Descrição
 
-B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs e telemetria de sistemas complexos, reduzindo custos operacionais em 40% á 92% através de compressão inteligente de tokens (TOON Engine) e cache distribuído. O sistema utiliza Google Gemini para análise contextual, implementa padrões de resiliência (Circuit Breaker, Retry, Timeout) e oferece observabilidade completa via Grafana e Prometheus.
+B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs e telemetria de sistemas complexos, reduzindo custos operacionais de 40% até 90% através de compressão inteligente de tokens (TOON Engine) e cache distribuído. O sistema utiliza Google Gemini para análise contextual, implementa padrões de resiliência (Circuit Breaker, Retry, Timeout) e oferece observabilidade completa via Grafana e Prometheus.
 
 **Problema Resolvido:** Análise manual de logs consome tempo e recursos. B.A.R.B.A.T.O.S. automatiza este processo, fornecendo insights em tempo real com redução significativa de custos de API através de compressão e caching.
 
