@@ -35,33 +35,33 @@ B.A.R.B.A.T.O.S. é uma plataforma full-stack que automatiza a análise de logs 
 ⊳⊳⊳ Tecnologias Utilizadas
 
 - ❏Backend
-- ⊳[Java 21](https://adoptium.net/temurin/releases/)** (Eclipse Adoptium JDK)
-- ⊳[Spring Boot 3.5.7](https://spring.io/projects/spring-boot)** (Web, Security, Data JPA, WebFlux)
-- ⊳[Resilience4j](https://resilience4j.readme.io/)** (Circuit Breaker, Retry, Time Limiter)
-- ⊳[Redis](https://redis.io/docs/)** (Cache distribuído)
-- ⊳[MongoDB Atlas](https://www.mongodb.com/docs/atlas/)** (Persistência de telemetria)
-- ⊳[H2 Database](https://www.h2database.com/html/main.html)** (Autenticação e sessões)
-- ⊳[JWT](https://jwt.io/introduction)** (Autenticação stateless)
-- ⊳[Micrometer](https://micrometer.io/docs)** + **[Prometheus](https://prometheus.io/docs/introduction/overview/)** (Métricas)
-- ⊳[Maven 3.x](https://maven.apache.org/guides/)** (Build tool)
+- ⊳[Java 21](https://adoptium.net/temurin/releases/) (Eclipse Adoptium JDK)
+- ⊳[Spring Boot 3.5.7](https://spring.io/projects/spring-boot) (Web, Security, Data JPA, WebFlux)
+- ⊳[Resilience4j](https://resilience4j.readme.io/) (Circuit Breaker, Retry, Time Limiter)
+- ⊳[Redis](https://redis.io/docs/) (Cache distribuído)
+- ⊳[MongoDB Atlas](https://www.mongodb.com/docs/atlas/) (Persistência de telemetria)
+- ⊳[H2 Database](https://www.h2database.com/html/main.html) (Autenticação e sessões)
+- ⊳[JWT](https://jwt.io/introduction) (Autenticação stateless)
+- ⊳[Micrometer](https://micrometer.io/docs) + [Prometheus](https://prometheus.io/docs/introduction/overview/) (Métricas)
+- ⊳[Maven 3.x](https://maven.apache.org/guides/) (Build tool)
 
 - ❏Frontend
-- ⊳[React 19.2.0](https://react.dev/)** (UI framework)
-- ⊳[Vite 7.2.2](https://vite.dev/guide/)** (Build tool e dev server)
-- ⊳[React Router 7.9.6](https://reactrouter.com/en/main)** (Roteamento SPA)
-- ⊳[Tailwind CSS 3.4.17](https://tailwindcss.com/docs)** (Estilização)
-- ⊳[Axios](https://axios-http.com/docs/intro)** (Cliente HTTP)
+- ⊳[React 19.2.0](https://react.dev/) (UI framework)
+- ⊳[Vite 7.2.2](https://vite.dev/guide/) (Build tool e dev server)
+- ⊳[React Router 7.9.6](https://reactrouter.com/en/main) (Roteamento SPA)
+- ⊳[Tailwind CSS 3.4.17](https://tailwindcss.com/docs) (Estilização)
+- ⊳[Axios](https://axios-http.com/docs/intro) (Cliente HTTP)
 
 - ❏DevOps
-- ⊳[Docker](https://docs.docker.com/)** + **[Docker Compose](https://docs.docker.com/compose/)** (Containerização)
-- ⊳[GitHub Actions](https://docs.github.com/en/actions)** (CI/CD)
-- ⊳[Grafana](https://grafana.com/docs/grafana/latest/)** (Dashboards e visualização)
-- ⊳[Prometheus](https://prometheus.io/docs/introduction/overview/)** (Coleta de métricas)
-- ⊳[Nginx](https://nginx.org/en/docs/)** (Servidor web para frontend)
+- ⊳[Docker](https://docs.docker.com/) + [Docker Compose](https://docs.docker.com/compose/)** (Containerização)
+- ⊳[GitHub Actions](https://docs.github.com/en/actions) (CI/CD)
+- ⊳[Grafana](https://grafana.com/docs/grafana/latest/) (Dashboards e visualização)
+- ⊳[Prometheus](https://prometheus.io/docs/introduction/overview/) (Coleta de métricas)
+- ⊳[Nginx](https://nginx.org/en/docs/) (Servidor web para frontend)
 
 - ❏Inteligência Artificial & Dados
-- ⊳[LangChain4j 0.36.2](https://docs.langchain4j.dev/)**(Integração Google Gemini)
-- ⊳[TOON](https://github.com/toon-format/toon)** (Token-Oriented Optimization Network/Notation)
+- ⊳[LangChain4j 0.36.2](https://docs.langchain4j.dev/) (Integração Google Gemini)
+- ⊳[TOON](https://github.com/toon-format/toon) (Token-Oriented Optimization Network/Notation)
 ---
 
 > ❏Funcionalidades
