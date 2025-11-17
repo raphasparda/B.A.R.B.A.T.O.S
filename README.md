@@ -3,18 +3,18 @@
                                                                                                                   
                                                                                                 :                 
                                                                                                t#,               .
-  .                               j.            .                                             ;##W.             ;W
-  Ef.                       ..    EW,           Ef.                       ..    GEEEEEEEL    :#L:WE            f#E
-  E#Wi                     ;W,    E##j          E#Wi                     ;W,    ,;;L#K;;.   .KG  ,#D         .E#f 
-  E#K#D:                  j##,    E###D.        E#K#D:                  j##,       t#E      EE    ;#f       iWW;  
-  E#t,E#f.               G###,    E#jG#W;       E#t,E#f.               G###,       t#E     f#.     t#i     L##Lffi
-  E#WEE##Wt            :E####,    E#t t##f      E#WEE##Wt            :E####,       t#E     :#G     GK     tLLG##L 
-  E##Ei;;;;.          ;W#DG##,    E#t  :K#E:    E##Ei;;;;.          ;W#DG##,       t#E      ;#L   LW.       ,W#i  
-  E#DWWt             j###DW##,    E#KDDDD###i   E#DWWt             j###DW##,       t#E       t#f f#:       j#E.   
-  E#t f#K;          G##i,,G##,    E#f,t#Wi,,,   E#t f#K;          G##i,,G##,       t#E        f#D#;      .D#j     
-  E#Dfff##E,      :K#K:   L##,    E#t  ;#W:     E#Dfff##E,      :K#K:   L##,       t#E         G#t      ,WK,      
-  jLLLLLLLLL; .j ;##D.    L##, .j DWi   ,KK: .j jLLLLLLLLL; .j ;##D.    L##, .j     fE  .j      t    .j EG.       
-              ;f.,,,      .,,  ;f.           ;f.            ;f.,,,      .,,  ;f.     :  ;f.          ;f.,         
+.                               j.            .                                             ;##W.             ;W
+Ef.                       ..    EW,           Ef.                       ..                 :#L:WE            f#E
+E#Wi                     ;W,    E##j          E#Wi                     ;W,     ,;;L#K;;.   .KG  ,#D         .E#f 
+E#K#D:                  j##,    E###D.        E#K#D:                  j##,        t#E      EE    ;#f       iWW;  
+E#t,E#f.               G###,    E#jG#W;       E#t,E#f.               G###,        t#E     f#.     t#i     L##Lffi
+SPARDA##Wt            :E####,    E#t t##f     E#WEE##Wt            :E####,        t#E     :#G     GK     tLLG##L 
+E##Ei;;;;.          ;W#DG##,    E#t  :K#E:    E##Ei;;;;.          ;W#DG##,        t#E      ;#L   LW.       ,W#i  
+E#DWWt             j###DW##,    E#SPARDA###i  E#DWWt             j###DW##,        t#E       t#f f#:       j#E.   
+E#t f#K;          G##i,,G##,    E#f,t#Wi,,,   E#t f#K;          G##i,,G##,        t#E        f#D#;      .D#j     
+E#Dfff##E,      :K#K:   L##,    E#t  ;#W:     E#SPARDA#E,      :K#K:   L##,       t#E         G#t      ,WK,      
+jLLLLLLLLL; .j ;##D.    L##, .j DWi   ,KK: .j jLLLLLLLLL; .j ;##D.    L##, .j     fE  .j      t    .j EG.       
+           ;f.,,,      .,,  ;f.           ;f.            ;f.,,,      .,,  ;f.     :  ;f.          ;f.,         
                                                                                                           
                 ❏Binary Automated Reliability Bot for Analysis and Token-Oriented Serialization❐
 </pre>
